@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "outDir": "../dist",
+        "sourceRoot": ".",
+        "declaration": false,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "disableSizeLimit": true,
+        "typeRoots": [ "../node_modules/@types", "./**" ],
+        "types": [ ],
+        "module": "CommonJS",
+        "target": "ES5",
+        "lib": [ "es6", "dom", "dom.iterable", "ES2019", "ES2020" ],
+        "sourceMap": true,
+        "allowJs": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "rootDir": "../"
+    },
+    "include": [ "**/*.ts", "**/*.tsx", "**/*.jsx", "**/*.js" ],
+    "exclude": [
+        "node_modules",
+        "**/.test.ts",
+        "**/.spec.ts"
+    ]
+}
