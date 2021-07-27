@@ -1,2 +1,2 @@
 import app from '../Example/ReactApp';
-app('app-1');
+app('app-3');

@@ -1,3 +1,2 @@
-import('../Example/ReactApp').then(({default: app}) => {
-    app('app-2');
- })
+import app from '../Example/ReactApp';
+app('app-2');
